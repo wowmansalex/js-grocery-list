@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700;800;900&family=Roboto+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Grocery List</title>
+</head>
+<body>
+  <header>
+    <div class="upper-container">
+      <div class="left-part"> <h1>My Grocery List</h1></div>
+      <div class="middle-part"> <input class="search-bar" id="filter" type="text" placeholder="Search item"></div>
+      <div class="right-part"></div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="add-items-form">
+        <form id="form-add-items" class="input-items">
+          <input class="input-field" id="item-input" type="text">
+          <input class="submit-button" id="submit-button" type="submit" value="Add">
+        </form>
+      </div>
+      <div class="item-list">
+        <ul id="list">
+          <li class="list-item">Apples   <button class="delete-button">X</button> </li>
+          <li class="list-item">Carrots  <button class="delete-button">X</button> </li>
+          <li class="list-item">Bread   <button class="delete-button">X</button> </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <script src="sandbox.js"></script>
+</body>
+</html>

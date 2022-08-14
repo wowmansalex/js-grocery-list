@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", sans-serif;
+  margin-top: 80px;
+  box-sizing: border-box;
+}
+
+input {
+  font-family: "Roboto Mono", sans-serif;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.upper-container {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0; 
+  padding: 0 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70px;
+  background-color: rgb(128, 186, 240);
+}
+
+.left-part {
+  width: 300px;
+  margin-right: 20px;
+}
+
+.search-bar {
+  width: 400px
+}
+
+.middle-part {
+  width: 400px;
+}
+
+.right-part {
+  width: 300px;
+}
+
+.container {
+  border: solid;
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  width: 500px;
+  margin: 0px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-items-form {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.input-field {
+  border: solid;
+}
+
+.submit-button {
+  border: solid;
+  background-color: lightblue;
+}
+
+.item-list {
+  padding: 20px;
+  display: flex;
+  position: relative;
+}
+
+
+.list-item {
+  width: 450px;
+  height: 30px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  border: solid;
+  position: relative;
+}
+
+.delete-button {
+  border: solid;
+  background-color: lightblue;
+  position: absolute;
+  right: 8px;
+  top: 6px;
+  padding: 2px 2px;
+}
